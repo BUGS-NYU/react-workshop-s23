@@ -9,6 +9,8 @@ import './App.css';
 const LIGHT = 'LIGHT';
 const DARK = 'DARK';
 
+// Step 1
+//
 const LINKS = [
   { title: 'Website', url: 'https://www.bugsnyu.com' }
   // Extend this array with your desired links
@@ -49,11 +51,15 @@ const App = () => {
   // On initial render of the component, the theme will be set to `DARK`
   const [currentTheme, setCurrentTheme] = useState(DARK);
 
+  // Step 2
+  //
   // Constant var that maps all of the links
   // Hint: use <LinkButton /> component and `.map` method for `LINKS` array
   // Docs reference: https://react.dev/learn/conditional-rendering
   const mapLinks = null; // TODO: remove `null` and complete this constant
 
+  // Step 4
+  //
   // Constant var that holds the appropriate className string based on the theme state
   // If the currentTheme is `DARK` then the className string should be `container`
   // If the currentTheme is `LIGHT` then the className string should be `container light`
@@ -61,6 +67,8 @@ const App = () => {
   // Docs reference: https://react.dev/learn/conditional-rendering
   const containerClassName = null; // TODO: remove `null` and complete this constant
 
+  // Step 5
+  //
   // Function that toggles the state of the current theme
   // If the current theme is `DARK` then toggle to `LIGHT`, else toggle to `DARK`
   // Hint: use `setCurrentTheme` to toggle the state
@@ -71,6 +79,8 @@ const App = () => {
     <div className={containerClassName}>
       {
         /*
+          Step 3
+
           TODO: Complete the App component here
           - Add <ThemeTogglerButton /> and pass the required props
           - Add <Avatar /> component and pass the required props
