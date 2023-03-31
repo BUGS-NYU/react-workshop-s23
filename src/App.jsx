@@ -75,17 +75,17 @@ const App = () => {
   // Docs reference: https://react.dev/learn/state-a-components-memory
   const toggleTheme = () => {}; // TODO: complete this function
 
+  // Step 3
+  //
+  // Complete the App component return statement below:
+  // - Add <ThemeTogglerButton /> component with required props
+  // - Add <Avatar /> component with required props
+  // - Remove the comment in curly brackets (including the curly brackets)
+  // Hint: dont forget to pass the props (you will find required props near the component definitions above)
+  // Docs reference: https://react.dev/learn/passing-props-to-a-component
   return (
     <div className={containerClassName}>
-      {
-        /*
-          Step 3
-
-          TODO: Complete the App component here
-          - Add <ThemeTogglerButton /> and pass the required props
-          - Add <Avatar /> component and pass the required props
-        */
-      }
+      {/* Complete the component in Step 3 and remove this comment */}
       {mapLinks}
     </div>
   );
